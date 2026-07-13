@@ -1,19 +1,33 @@
 [project]
 name = "techtenstein-seo-mcp"
-version = "1.0.0"
+version = "1.0.2"
 description = "MCP server for Techtenstein SEO Audit API. Full on-page SEO analysis via Claude, Cline, and Cursor."
 readme = "README.md"
-authors = [{name = "Sathvic Kollu", email = "sathvic777@gmail.com"}]
-license = {text = "MIT"}
+authors = [
+    { name = "Sathvic Kollu", email = "sathvic777@gmail.com" }
+]
+license = { text = "MIT" }
 keywords = ["mcp", "seo", "audit", "claude", "techtenstein", "api"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
 requires-python = ">=3.10"
-dependencies = ["fastmcp>=0.2.0", "requests>=2.31.0"]
+dependencies = [
+    "fastmcp>=0.2.0",
+    "requests>=2.31.0",
+]
 
 [project.urls]
 Homepage = "https://apis.techtenstein.com"
+Documentation = "https://seo.api.techtenstein.com"
+Repository = "https://github.com/sathvic-kollu/techtenstein-seo-mcp"
 
 [project.scripts]
-techtenstein-seo-mcp = "techtenstein_seo_mcp:mcp.run"
+techtenstein-seo-mcp = "server:mcp.run"
 
 [build-system]
 requires = ["hatchling"]

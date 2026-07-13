@@ -1,3 +1,5 @@
+<!-- mcp-name: io.github.sathvic-kollu/techtenstein-seo -->
+
 # Techtenstein SEO MCP
 
 MCP server that gives your Claude, Cline, or Cursor session access to on-page SEO audits
