@@ -1,0 +1,35 @@
+{
+  "name": "techtenstein-seo",
+  "description": "On-page SEO audit for any URL. Get title, meta, headings, word count, alt coverage, link ratios, and score. Powered by Techtenstein SEO Audit API.",
+  "homepage": "https://apis.techtenstein.com",
+  "repository": "https://github.com/sathvic-kollu/techtenstein-seo-mcp",
+  "install": {
+    "type": "python",
+    "package": "techtenstein-seo-mcp"
+  },
+  "tools": [
+    {
+      "name": "seo_audit",
+      "description": "Run complete on-page SEO audit for a single URL"
+    },
+    {
+      "name": "seo_batch_audit",
+      "description": "Batch SEO audit up to 20 URLs at once"
+    }
+  ],
+  "categories": ["seo", "web", "analytics"],
+  "keywords": ["seo", "audit", "on-page", "techtenstein", "api"],
+  "author": {
+    "name": "Sathvic Kollu",
+    "email": "sathvic777@gmail.com",
+    "github": "sathvic-kollu"
+  },
+  "license": "MIT",
+  "environment_variables": {
+    "TECHTENSTEIN_API_KEY": {
+      "description": "Your API key from apis.techtenstein.com",
+      "required": false,
+      "note": "Free tier available without key (100 calls/day)"
+    }
+  }
+}
