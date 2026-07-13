@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.sathvic-kollu/techtenstein-seo",
-  "description": "On-page SEO audit for any URL. Get title, meta, headings, word count, alt coverage, link ratios, and score. Powered by Techtenstein SEO Audit API.",
+  "description": "On-page SEO audit for any URL. Titles, meta, headings, links, score, and fix recommendations.",
   "repository": {
     "url": "https://github.com/sathvic-kollu/techtenstein-seo-mcp",
     "source": "github"
